@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <gradient
+            android:startColor="#5433FF"
+            android:centerColor="#20BDFF"
+            android:endColor="#A5FECB"
+           />
+        <corners
+            android:radius="10dp"
+            />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="translate"
+            />
+
+</shape>

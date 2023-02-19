@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+            android:layout_weight="1"
+           android:orientation="vertical"
+           >
+
+           <TextView
+               android:id="@+id/t1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:textColor="@color/black"
+               android:text="Virat Kohli"
+               android:textSize="35dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="120dp"
+               />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ani"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+       <LinearLayout
+           android:layout_weight="0.8"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           >
+
+           <Button
+               android:id="@+id/b1"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               app:backgroundTint="@null"
+               android:background="@drawable/btn"
+               android:text="translate"
+               android:textColor="#37136A"
+               />
+
+           <Button
+               android:id="@+id/b2"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               app:backgroundTint="@null"
+               android:text="alpha"
+               android:textColor="#37136A"
+               android:background="@drawable/btn"
+               />
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#37136A"
+                android:text="rotate"
+                app:backgroundTint="@null"
+                android:background="@drawable/btn"
+                />
+            <Button
+                android:id="@+id/b4"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#37136A"
+                android:text="scale"
+                app:backgroundTint="@null"
+                android:background="@drawable/btn"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
